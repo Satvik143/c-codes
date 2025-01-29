@@ -33,7 +33,6 @@ nt* insert_last(nt* head, int data) {
 
 int main() {
     nt *head = NULL;
-    nt* new1;
 
     head = insert_last(head, 5);
     head = insert_last(head, 10);
